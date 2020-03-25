@@ -1,226 +1,233 @@
- * {
-     -webkit-box-sizing: border-box;
-     box-sizing: border-box;
- }
+/*COLORS */
 
- body {
-     margin: 0;
-     font-family: 'montserrat', sans-serif;
-     font-weight: 100;
-
- }
-
- img {
-     width: 100%;
- }
-
- h1,
- h2,
- h3,
- p {
-     font-family: 'montserrat', sans-serif;
-     margin: 0;
-     padding: 0;
- }
-
-
- h1 {
-     font-size: 4rem;
-     /*     position: absolute;*/
-     letter-spacing: -7px;
-     font-weight: 400;
-     margin: 0;
-     margin-top: 50px;
-
-
- }
-
- h1::after {
-     content: "Tutoring made tutully easy";
-     font-size: 0.7rem;
-     letter-spacing: 1px;
-     font-weight: 100;
-     display: block;
-     text-align: center;
-
- }
-
- h2 {
-     font-size: 1.6rem;
- }
-
- h3 {
-     font-size: 2rem;
- }
-
- p {
-     font-size: 1.2rem;
-
- }
-
- #wrapper {
-     display: -webkit-box;
-     display: -ms-flexbox;
-     display: flex;
-     -ms-flex-wrap: wrap;
-     flex-wrap: wrap;
-     -webkit-box-pack: center;
-     -ms-flex-pack: center;
-     justify-content: center;
-     margin: 0 auto;
-     height: 100vh;
-
- }
-
- /************** LOGIN PAGE *******************/
-
-
- /* BILLEDE */
- .avatar {
-
-     border-radius: 50%;
-     width: 160px;
-     height: 160px;
-     margin: 0px 60px 60px 60px;
-     padding: 1px;
-     display: block;
-
- }
-
- /* LOGIN */
- form {
-     text-align: center;
- }
-
- input {
-     display: block;
-     border: 1px solid #0c0c0c;
-     border-radius: 10px;
-     font-weight: 600;
-     width: 200px;
-     height: 30px;
-     padding: 1.4vw;
-     text-align: center;
-     margin: 4px;
-
- }
-
- #noPsw {
-     content: "Forgot you password?";
-     font-size: 0.7rem;
-     color: #C4C4C4;
-     display: block;
-     margin: 0 auto;
-
- }
-
- #submit {
-     background: transparent;
-     border: 1px solid #FF8686;
-     /*     RED */
-     color: #FF8686;
-     margin-top: 50px;
- }
-
- #signUp {
-     margin-top: 20px;
-     color: #C4C4C4;
-     text-align: center;
- }
-
- /* LOGIN END */
-
-
- /************** LOGIN PAGE END *******************/
+/*   Green: #86FFCC;*/
+/*   Red: #FF8686;*/
 
 
 
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 100;
+
+}
+
+img {
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+p {
+    font-family: 'montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
 
- /*        ******************* COURSE SELECTION *****************/
- #pickCourses {
-     margin-top: 0px;
- }
-
- .grid {
-
-     display: grid;
-     grid-template-columns: 75px 75px 75px 75px;
-     grid-template-rows: auto;
-     grid-gap: 15px;
-     margin: 5px;
-     -webkit-box-pack: center;
-     -ms-flex-pack: center;
-     justify-content: center;
- }
-
- .box {
-     background: #ff0000;
-     text-align: center;
-     width: auto;
-     height: 75px;
-     text-align: center;
-
- }
-
- /************** BOXES **************/
-
- .box p {
-     text-align: center;
- }
-
- .nat {
-     background-color: #B5F0CD;
- }
-
- .lit {
-     background-color: #F0B5B5;
- }
-
- .lang {
-     background-color: #B5E4F9;
- }
-
- .mat {
-     background-color: #FFCF88;
- }
-
- /************** BOXES **************/
-
- /*        ******************* COURSE SELECTION *****************/
+h1 {
+    font-size: 4rem;
+    /*     position: absolute;*/
+    letter-spacing: -7px;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 50px;
 
 
- /*        **************************************** DATE & TIME SELECTOR  ********************************* */
+}
+
+h1::after {
+    content: "Tutoring made tutully easy";
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+    font-weight: 100;
+    display: block;
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.2rem;
+
+}
+
+#wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100vh;
+
+}
+
+/************** LOGIN PAGE *******************/
 
 
- .chosen {
-     background-color: #FF8686;
-     border: none;
- }
+/* BILLEDE */
+.avatar {
+
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    margin: 0px 60px 60px 60px;
+    padding: 1px;
+    display: block;
+
+}
+
+/* LOGIN */
+form {
+    text-align: center;
+}
+
+input {
+    display: block;
+    border: 1px solid #0c0c0c;
+    border-radius: 10px;
+    font-weight: 600;
+    width: 200px;
+    height: 30px;
+    padding: 1.4vw;
+    text-align: center;
+    margin: 4px;
+
+}
+
+#noPsw {
+    content: "Forgot you password?";
+    font-size: 0.7rem;
+    color: #C4C4C4;
+    display: block;
+    margin: 0 auto;
+
+}
+
+#submit {
+    background: transparent;
+    border: 1px solid #FF8686;
+    /*     RED */
+    color: #FF8686;
+    margin-top: 50px;
+}
+
+#signUp {
+    margin-top: 20px;
+    color: #C4C4C4;
+    text-align: center;
+}
+
+/* LOGIN END */
 
 
- /*        *************** DAY SELECTOR  *************/
+/************** LOGIN PAGE END *******************/
 
- .days {
-     margin-top: 60px;
- }
 
- .day {
-     border: 1px solid #000;
-     width: 60px;
-     height: 60px;
-     margin: 2px;
-     text-align: center;
 
- }
 
- /*        *************** TIME SELECTOR  *************/
 
- #times {
-     margin: 30px;
- }
+/*        ******************* COURSE SELECTION *****************/
+#pickCourses {
+    margin-top: 0px;
+}
 
- /*
+.grid {
+
+    display: grid;
+    grid-template-columns: 75px 75px 75px 75px;
+    grid-template-rows: auto;
+    grid-gap: 15px;
+    margin: 5px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.box {
+    background: #ff0000;
+    text-align: center;
+    width: auto;
+    height: 75px;
+    text-align: center;
+
+}
+
+/************** BOXES **************/
+
+.box p {
+    text-align: center;
+}
+
+.nat {
+    background-color: #B5F0CD;
+}
+
+.lit {
+    background-color: #F0B5B5;
+}
+
+.lang {
+    background-color: #B5E4F9;
+}
+
+.mat {
+    background-color: #FFCF88;
+}
+
+/************** BOXES **************/
+
+/*        ******************* COURSE SELECTION *****************/
+
+
+/*        **************************************** DATE & TIME SELECTOR  ********************************* */
+
+
+.chosen {
+    background-color: #FF8686;
+    border: none;
+}
+
+
+/*        *************** DAY SELECTOR  *************/
+
+.days {
+    margin-top: 60px;
+}
+
+.day {
+    border: 1px solid #000;
+    width: 60px;
+    height: 60px;
+    margin: 2px;
+    text-align: center;
+
+}
+
+/*        *************** TIME SELECTOR  *************/
+
+#times {
+    margin: 30px;
+}
+
+/*
         .time {
             border: 1px solid #000;
             background-color: #86FFCC;
@@ -230,89 +237,88 @@
         }
 */
 
- .grid_times {
-     display: grid;
-     grid-template-columns: repeat(7, 45px);
-     grid-auto-rows: auto;
-     grid-gap: 5px;
+.grid_times {
+    display: grid;
+    grid-template-columns: repeat(7, 45px);
+    grid-auto-rows: auto;
+    grid-gap: 5px;
 
 
- }
+}
 
- .grid_times div {
-     border: 1px solid #000;
-     background-color: #86FFCC;
+.grid_times div {
+    border: 1px solid #000;
+    background-color: #86FFCC;
+    /*     GREEN*/
 
- }
-
-
- .grid_times p {
-     font-size: 0.9rem;
-     margin: 1px;
-     padding: 5px 2px;
-
- }
-
- .hidden {
-     display: none;
- }
+}
 
 
- /*        *************** TIME SELECTOR  *************/
+.grid_times p {
+    font-size: 0.9rem;
+    margin: 1px;
+    padding: 5px 2px;
 
- /*        *********************************** DATE & TIME SELECTOR END ********************************* */
+}
 
- /*        **************   CONFIRMATION *****************/
-
- .name:after {
-     content: "Alicia Grey";
-
- }
-
- #Confirm {
-     display: -webkit-box;
-     display: -ms-flexbox;
-     display: flex;
-     -ms-flex-wrap: wrap;
-     flex-wrap: wrap;
-     -webkit-box-pack: center;
-     -ms-flex-pack: center;
-     justify-content: center;
-     -ms-flex-line-pack: start;
-     align-content: flex-start;
-     position: relative;
-     top: -100px;
-     margin: 10px;
-
- }
-
- .confirmation_txt {
-     margin: 20px;
- }
-
- .buttoncontainer {
-     position: relative;
-     top: 80px;
-     margin-top: 40px;
- }
-
- .accept,
- .cancel {
-     -ms-flex-preferred-size: 100px;
-     flex-basis: 100px;
-     font-size: 2rem;
-     border-radius: 10px;
-     border: none;
-     padding: 10px;
- }
-
- .accept {
-     background-color: #86FFCC;
- }
-
- .cancel {
-     background-color: #FF8686;
- }
+.hidden {
+    display: none;
+}
 
 
- /*        **************   CONFIRMATION END *****************/
+/*        *************** TIME SELECTOR  *************/
+
+/*        *********************************** DATE & TIME SELECTOR END ********************************* */
+
+/*        **************   CONFIRMATION *****************/
+
+.name:after {
+    content: "Alicia Grey";
+
+}
+
+#Confirm {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    position: relative;
+    top: -100px;
+    margin: 10px;
+
+}
+
+.confirmation_txt {
+    margin: 20px;
+}
+
+.buttoncontainer {
+    position: relative;
+    top: 80px;
+    margin-top: 40px;
+}
+
+.accept,
+.cancel {
+    font-size: 2rem;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+
+.accept {
+    background-color: #86FFCC;
+}
+
+.cancel {
+    background-color: #FF8686;
+}
+
+
+/*        **************   CONFIRMATION END *****************/
